@@ -1,0 +1,12 @@
+To push
+
+1.create docker reposaraty msc_test_2_server-php-app-1
+2.docker images(find  image id - a9e4301adb6b )
+3. docker tag a9e4301adb6b channasandakelum7523/msc_test_2_server-php-app-1:latest      
+4. docker push channasandakelum7523/msc_test_2_server-php-app-1:latest
+
+
+
+To pull
+
+  docker pull channasandakelum7523/msc_test_2_server-php-app-1:latest
